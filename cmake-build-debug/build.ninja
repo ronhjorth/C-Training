@@ -84,6 +84,12 @@ build CMakeFiles/c__.dir/models/user.cpp.o: CXX_COMPILER__c___Debug /Users/ronhj
   OBJECT_DIR = CMakeFiles/c__.dir
   OBJECT_FILE_DIR = CMakeFiles/c__.dir/models
 
+build CMakeFiles/c__.dir/repositories/fileReader.cpp.o: CXX_COMPILER__c___Debug /Users/ronhjorth/repos/training/c++/repositories/fileReader.cpp || cmake_object_order_depends_target_c__
+  DEP_FILE = CMakeFiles/c__.dir/repositories/fileReader.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/c__.dir
+  OBJECT_FILE_DIR = CMakeFiles/c__.dir/repositories
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target c__
@@ -92,7 +98,7 @@ build CMakeFiles/c__.dir/models/user.cpp.o: CXX_COMPILER__c___Debug /Users/ronhj
 #############################################
 # Link the executable c__
 
-build c__: CXX_EXECUTABLE_LINKER__c___Debug CMakeFiles/c__.dir/main.cpp.o CMakeFiles/c__.dir/models/user.cpp.o
+build c__: CXX_EXECUTABLE_LINKER__c___Debug CMakeFiles/c__.dir/main.cpp.o CMakeFiles/c__.dir/models/user.cpp.o CMakeFiles/c__.dir/repositories/fileReader.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/c__.dir
   POST_BUILD = :

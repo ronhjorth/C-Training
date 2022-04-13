@@ -1,8 +1,28 @@
 #include "models/user.h"
+#include "repositories/fileReader.h"
+
 #include <iostream>
+#include <fstream>
+
+//#include <json/value.h>
+//#include <json/json.h>
 
 using namespace std;
 
+//void displayDataJson {const Json::Value &cfg_root};
+
+
+//void displayCfg(const Json::Value &cfg_root)
+//{
+//    std::string fistName = cfg_root["user"]["firstName"].asString();
+//    //std::string serverPort = cfg_root["user"]["server-port"].asString();
+//    //unsigned int bufferLen = cfg_root["user"]["buffer-length"].asUInt();
+//
+//    std::cout << "______ User #1 ______" << std::endl;
+//    std::cout << "First Bane     :" << fistName << std::endl;
+//    //std::cout << "server-port   :" << serverPort << std::endl;
+//    //std::cout << "buffer-length :" << bufferLen<< std::endl;
+//}
 int main() {
 
     // Create on the stack
@@ -17,6 +37,16 @@ int main() {
     secondUser->setCellPhone("333-444-5555");
     secondUser->printUser();
     delete secondUser; // Need to delete when using new
+
+    // Read json file
+    //    Json:: Reader reader;
+    //    Json::value jsonRoot;
+
+    string jsonFile = "../data/user.json";
+    //string jsonFile ="userMain.txt";
+
+    fileReader reader;
+    reader.readFile(jsonFile);
 
     /*TODO read users from a json file
      1. create json file with a few users

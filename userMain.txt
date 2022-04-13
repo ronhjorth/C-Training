@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Test",
+      "lastName": "Dummy",
+      "middleName": "Alan",
+      "userName": "tdummy",
+      "email": "tdummy@msn.com",
+      "cellPhone": "208-768-2361"
+    },
+    {
+      "id": "2",
+      "firstName": "Donald",
+      "lastName": "Duck",
+      "middleName": "feather",
+      "userName": "dduck",
+      "email": "dduck@msn.com",
+      "cellPhone": "208-111-2222"
+    },
+    {
+      "id": "3",
+      "firstName": "Sponge",
+      "lastName": "Bob",
+      "middleName": "na",
+      "userName": "sbob",
+      "email": "sbob@msn.com",
+      "cellPhone": "208-222-3333"
+    },
+    {
+      "id": "4",
+      "firstName": "Patrick",
+      "lastName": "Fish",
+      "middleName": "Star",
+      "userName": "pfish",
+      "email": "pfish@msn.com",
+      "cellPhone": "208-333-4444"
+    },
+    {
+      "id": "5",
+      "firstName": "Dead",
+      "lastName": "Pool",
+      "middleName": "Red",
+      "userName": "dpool",
+      "email": "dpool@msn.com",
+      "cellPhone": "208-444-5555"
+    }
+  ]
+}

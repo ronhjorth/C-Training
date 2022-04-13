@@ -26,10 +26,10 @@ class user{
         user(const string &firstName, const string &lastName, const string &middleName, const string &loginName,
              const string &email);
 
-    user(const string &firstName, const string &lastName, const string &middleName, const string &loginName,
-         const string &email, const string &cellPhone);
+        user(const string &firstName, const string &lastName, const string &middleName, const string &loginName,
+             const string &email, const string &cellPhone);
 
-    /* setters and getters */
+        /* setters and getters */
         int getId() const;
         void setId(int id);
 
